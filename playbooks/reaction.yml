@@ -158,7 +158,7 @@
     - git:
         repo: "https://github.com/reactioncommerce/reaction-development-platform.git"
         dest: /home/{{ create_user }}/{{reaction_dir}}
-        version: trunk
+        version: v3.11.1
 
     - git:
         repo: "https://github.com/reactioncommerce/proxy-traefik.git"
